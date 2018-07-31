@@ -18,7 +18,5 @@ urlpatterns = [
     path('nat_lookup.html', views.nat_lookup, name='nat_lookup'),
     path('log.html', views.log, name='log'),
 
-    path('info/cpu_memory.html', views.usage, name='usage'),
-    path('info2/mac_hostname.html', views.mac_host, name='mac_host'),
-    path('wan_IP/IP_address.html', views.ip_address, name='ip_address'),
+    path('info/cpu-ram', views.cpu_ram, name='cpu_ram'),
 ]

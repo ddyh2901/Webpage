@@ -1,7 +1,7 @@
 $('#mac_host').click(function(){
     $.ajax({
                 type: 'GET',
-                url: 'http://127.0.0.1:8000/simap/info2/mac_hostname.html',
+                url: 'http://127.0.0.1:8000/system/mac-hostname',
                 dataType: 'json',
                 success: function(result){
                      y = result.mac_addresses;
