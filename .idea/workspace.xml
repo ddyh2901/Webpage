@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80b0e8c5-40eb-49a1-93ae-0b968d418c16" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/migrations/0002_auto_20180725_0922.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/migrations/0003_auto_20180725_1002.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simap/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/chartcharacter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/chartcharacter2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter3.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/chartcharacter3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/logprint.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/logprint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/cpu_memory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/loglist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/mac_hostname.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simap/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simap/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="80b0e8c5-40eb-49a1-93ae-0b968d418c16" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +25,11 @@
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simap/static/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
@@ -127,7 +110,7 @@
       <find>Inr</find>
       <find>subPages</find>
       <find>img</find>
-      <find>Menu Levels</find>
+      <find />
       <find>dark</find>
       <find>시스템</find>
       <find>contetn</find>
@@ -145,7 +128,7 @@
       <find>Chart</find>
       <find>Pie</find>
       <find>Data</find>
-      <find>Data Table</find>
+      <find />
       <find>data</find>
       <find>Log</find>
       <find>cpu_me</find>
@@ -198,12 +181,13 @@
         <option value="$PROJECT_DIR$/simap/static/js/logprint.js" />
         <option value="$PROJECT_DIR$/simap/views.py" />
         <option value="$PROJECT_DIR$/webpage/urls.py" />
+        <option value="$PROJECT_DIR$/simap/static/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="922" />
-    <option name="y" value="247" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="23" />
+    <option name="y" value="425" />
     <option name="width" value="1150" />
     <option name="height" value="793" />
   </component>
@@ -628,7 +612,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simap/static/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
