@@ -28,8 +28,11 @@
                               <input type="radio" name="optradio" value="auto">자동
                             </label>
                       <br class="form-group">
-                      <label>IP주소</label>
-                      <input id="wan_ip" type="text" id="radiocheck1" class="form-control"  placeholder="..." />
+                      <label>로컬 IP주소</label>
+                      <input id="local_ip" type="text" id="radiocheck1" class="form-control"  placeholder="..." />
+                      <br>
+                      <label>실제 IP주소</label>
+                      <input id="wan_ip" type="text" id="radiocheck4" class="form-control"  placeholder="..." readonly/>
                       <br>
                       <label>Net Mask</label>
                       <input id = "wan_net"type="text" id="radiocheck2" class="form-control" placeholder="..." readonly/>
@@ -90,9 +93,9 @@
     <!-- Custom scripts for this page-->
     <script src='{% static "js/sb-admin-datatables.min.js" %}'></script>
     <script src='{% static "js/sb-admin-charts.min.js" %}'></script>
-<script src='{% static "js/chartcharacter.js" %}'></script>
-   <script src='{% static "js/chartcharacter2.js" %}'></script>
-  <script src='{% static "js/chartcharacter3.js" %}'></script>
+    <script src='{% static "js/chartcharacter.js" %}'></script>
+    <script src='{% static "js/chartcharacter2.js" %}'></script>
+    <script src='{% static "js/wan_IP.js" %}'></script>
     <script language="javascript" type="text/javascript" src='{% static "flot/excanvas.min.js" %}'></script>
 <![endif]-->
     <script type="text/javascript" src='{% static "flot/jquery.flot.min.js" %}'></script>

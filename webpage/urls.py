@@ -15,20 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-
-import socket
-import uuid
 import urllib.request
 import requests
-from simap.models import Log, ARP_command, ARP_result
+from django.views.generic import RedirectView
 import threading
-import time
 from simap.views import *
+import os
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('simap/', include('simap.urls')),
-
+    path('', RedirectView.as_view(url='http://127.0.0.1:8000/simap/index.html'), name=''),
+    path('admin/', admin.site.urls),
     path('system/ram', ram, name='ram'),
     path('system/cpu', cpu, name='cpu'),
     path('life', life, name='life'),
@@ -37,7 +34,6 @@ urlpatterns = [
     path('system/mac-hostname', mac_host, name='mac-hostname'),
     path('wan_IP/IP_address', ip_address, name='ip_address'),
     path('system/ip-netmask-gateway', ip_netmask_gateway, name='ip-netmask-gateway'),
-    path('ip_address', ip_address, name='ip_address'),
     path('thread1', thread1, name='thread1'),
 ]
 
@@ -45,8 +41,10 @@ hostname = socket.gethostname()
 mac_addresses = (':'.join(['{:02x}'.format((uuid.getnode() >> ele) & 0xff) for ele in range(0, 8 * 6, 8)][::-1]))
 wan = urllib.request.urlopen('https://ident.me').read().decode('utf8')
 port = 8000
+# port = os.environ.get('HOME')
 data = {'hostname': hostname, 'mac_addresses': mac_addresses, 'wan_ip': wan, 'port': port}
 res = requests.post('http://203.252.34.237:8080/simMe', data=data)
+
 
 class DBcheck(threading.Thread):
     def run(self):
@@ -63,8 +61,9 @@ class DBcheck(threading.Thread):
                     q.save()
                     q.id
                 key.delete()
-
             b = key.id
             time.sleep(1)
+
+
 send = DBcheck(name='dbchecking')
 send.start()

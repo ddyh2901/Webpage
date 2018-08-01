@@ -7,7 +7,6 @@
     var count = 0;
     var count2 = 1;
 
-
     function GetData1() {
         $.ajax({
                 type: 'GET',

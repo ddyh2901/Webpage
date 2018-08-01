@@ -15,3 +15,12 @@ class ARP_command(models.Model):
 class ARP_result(models.Model):
     inst = models.TextField()
     key = models.IntegerField()
+
+class RAM(models.Model):
+    memory = models.FloatField()
+
+class CPU(models.Model):
+    CPU = models.FloatField()
+
+class IP(models.Model):
+    IP = models.CharField(max_length=50)

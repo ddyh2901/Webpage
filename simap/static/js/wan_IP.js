@@ -6,19 +6,24 @@ $(document).ready(function () {
                 success: function(result){
                      x = result.netmask;
                      z = result.gateway;
+                     y = result.wan;
                     document.getElementById("wan_net").value = x;
                     document.getElementById("wan_gate").value = z;
+                    document.getElementById("wan_ip").value = y;
                 }
           });
 
         $('#good').click(function(){
-          y = document.getElementById("wan_ip").value;
-         // $.ajax({
-         //       type: 'POST',
-         //       url: 'http://127.0.0.1:8000/simap/ip_address.html',
-         //     data: {'a': y}
-         //  });
-          alert("IP 주소가 수동설정 되었습니다.");
+          $.ajax({
+                type: 'GET',
+                url: 'http://127.0.0.1:8000/wan_IP/IP_address',
+                data: {'a': document.getElementById("local_ip").value},
+                dataType: 'json',
+                success: function(result) {
+                    alert(result.Result);
+                }
+           });
+           alert("IP 주소가 수동설정 되었습니다.");
         });
 
         $('input:radio[name="optradio"]').click(function(){
@@ -33,13 +38,13 @@ $(document).ready(function () {
                 dataType: 'json',
                 success: function(result){
                      y = result.lan;
-                    document.getElementById("wan_ip").value = y;
+                    document.getElementById("local_ip").value = y;
                 }
           });
-            document.getElementById("wan_ip").disabled = true;
+            document.getElementById("local_ip").disabled = true;
         }else {
             $('#good').prop('disabled', false);
-            document.getElementById("wan_ip").disabled = false;
+            document.getElementById("local_ip").disabled = false;
         }
 });
 });
