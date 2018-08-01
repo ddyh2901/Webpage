@@ -2,38 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80b0e8c5-40eb-49a1-93ae-0b968d418c16" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simap/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/cpu_ram.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/chartcharacter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/static/js/chartcharacter3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/cards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simap/static/js/cpu_ram.js" beforeDir="false" afterPath="$PROJECT_DIR$/simap/static/js/cpu_ram.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/info2.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/info2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/lan_IP.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/lan_IP.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/lan_ping.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/lan_ping.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/lan_port.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/lan_port.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/login.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/nat_lookup.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/nat_lookup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/nat_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/nat_set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/tables.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/templates/simap/wan_ping.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/wan_port.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/wan_port.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/wifi_24.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/wifi_24.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simap/templates/simap/wifi_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/simap/templates/simap/wifi_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simap/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simap/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpage/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,20 +25,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cpu_ram.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simap/static/js/cpu_ram.js">
+      <file leaf-file-name="info2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/info2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="299">
+              <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chartcharacter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/simap/static/js/chartcharacter.js">
+      <file leaf-file-name="wifi_24.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_24.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
-              <caret line="220" column="7" lean-forward="true" selection-start-line="141" selection-start-column="4" selection-end-line="220" selection-end-column="7" />
+            <state relative-caret-position="280">
+              <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lan_ping.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_ping.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="547" column="52" selection-start-line="547" selection-start-column="52" selection-end-line="547" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lan_port.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_port.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="546" column="52" selection-start-line="546" selection-start-column="52" selection-end-line="546" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/log.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nat_lookup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_lookup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nat_set.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_set.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wan_IP.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_IP.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="95" column="56" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wan_port.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_port.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="546" column="52" selection-start-line="546" selection-start-column="52" selection-end-line="546" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wifi_5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -135,13 +188,14 @@
         <option value="$PROJECT_DIR$/simap/migrations/__init__.py" />
         <option value="$PROJECT_DIR$/webpage/settings.py" />
         <option value="$PROJECT_DIR$/simap/models.py" />
-        <option value="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" />
         <option value="$PROJECT_DIR$/simap/urls.py" />
         <option value="$PROJECT_DIR$/simap/static/js/wan_IP.js" />
         <option value="$PROJECT_DIR$/simap/views.py" />
         <option value="$PROJECT_DIR$/webpage/urls.py" />
-        <option value="$PROJECT_DIR$/simap/templates/simap/index.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/base.html" />
+        <option value="$PROJECT_DIR$/simap/templates/simap/info.html" />
+        <option value="$PROJECT_DIR$/simap/static/js/cpu_ram.js" />
+        <option value="$PROJECT_DIR$/simap/templates/simap/index.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/info2.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/lan_IP.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/lan_ping.html" />
@@ -149,11 +203,10 @@
         <option value="$PROJECT_DIR$/simap/templates/simap/log.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/nat_lookup.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/nat_set.html" />
+        <option value="$PROJECT_DIR$/simap/templates/simap/wan_IP.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/wan_port.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/wifi_5.html" />
         <option value="$PROJECT_DIR$/simap/templates/simap/wifi_24.html" />
-        <option value="$PROJECT_DIR$/simap/templates/simap/info.html" />
-        <option value="$PROJECT_DIR$/simap/static/js/cpu_ram.js" />
       </list>
     </option>
   </component>
@@ -421,27 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_IP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simap/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1339">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,90 +508,6 @@
     <entry file="file://$PROJECT_DIR$/simap/static/js/hostname_mac.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/info2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="909" column="12" lean-forward="true" selection-start-line="909" selection-start-column="12" selection-end-line="909" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_IP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="120" column="59" selection-start-line="120" selection-start-column="59" selection-end-line="120" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_ping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="548" selection-start-line="548" selection-end-line="548" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_port.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="547" selection-start-line="547" selection-end-line="547" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/log.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_lookup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_port.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="547" selection-start-line="547" selection-end-line="547" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_24.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simap/templates/simap/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simap/templates/simap/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -563,17 +515,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simap/static/js/chartcharacter.js">
+    <entry file="file://$PROJECT_DIR$/simap/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="220" column="7" lean-forward="true" selection-start-line="141" selection-start-column="4" selection-end-line="220" selection-end-column="7" />
+        <state relative-caret-position="1287">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simap/static/js/cpu_ram.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/static/js/chartcharacter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="184" column="20" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="907" selection-start-line="907" selection-end-line="907" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_IP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="120" column="52" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_ping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="547" column="52" selection-start-line="547" selection-start-column="52" selection-end-line="547" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/lan_port.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="546" column="52" selection-start-line="546" selection-start-column="52" selection-end-line="546" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="92" column="52" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_lookup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/nat_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="57" selection-start-line="57" selection-end-line="57" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_IP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="95" column="56" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wan_port.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="546" column="52" selection-start-line="546" selection-start-column="52" selection-end-line="546" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/info2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simap/templates/simap/wifi_24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
         </state>
       </provider>
     </entry>
